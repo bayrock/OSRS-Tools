@@ -1,0 +1,492 @@
+[
+    {
+        "level": 1,
+        "patch": "Allotment",
+        "produce": "Potato",
+        "baseChance": 281040,
+        "chanceAtLevel99": 278565
+    },
+    {
+        "level": 2,
+        "patch": "Flower",
+        "produce": "Marigolds",
+        "baseChance": 281040,
+        "chanceAtLevel99": 278565
+    },
+    {
+        "level": 3,
+        "patch": "Hops",
+        "produce": "Barley",
+        "baseChance": 112416,
+        "chanceAtLevel99": 109941
+    },
+    {
+        "level": 4,
+        "patch": "Hops",
+        "produce": "Hammerstone",
+        "baseChance": 112416,
+        "chanceAtLevel99": 109941
+    },
+    {
+        "level": 5,
+        "patch": "Allotment",
+        "produce": "Onion",
+        "baseChance": 281040,
+        "chanceAtLevel99": 278565
+    },
+    {
+        "level": 7,
+        "patch": "Allotment",
+        "produce": "Cabbage",
+        "baseChance": 281040,
+        "chanceAtLevel99": 278565
+    },
+    {
+        "level": 8,
+        "patch": "Hops",
+        "produce": "Asgarnian",
+        "baseChance": 89933,
+        "chanceAtLevel99": 87458
+    },
+    {
+        "level": 9,
+        "patch": "Herb",
+        "produce": "Guam",
+        "baseChance": 98364,
+        "chanceAtLevel99": 95889
+    },
+    {
+        "level": 10,
+        "patch": "Bush",
+        "produce": "Redberries",
+        "baseChance": 44966,
+        "chanceAtLevel99": 42491
+    },
+    {
+        "level": 11,
+        "patch": "Flower",
+        "produce": "Rosemary",
+        "baseChance": 281040,
+        "chanceAtLevel99": 278565
+    },
+    {
+        "level": 12,
+        "patch": "Allotment",
+        "produce": "Tomato",
+        "baseChance": 281040,
+        "chanceAtLevel99": 278565
+    },
+    {
+        "level": 13,
+        "patch": "Hops",
+        "produce": "Jute",
+        "baseChance": 89933,
+        "chanceAtLevel99": 87458
+    },
+    {
+        "level": 14,
+        "patch": "Herb",
+        "produce": "Marrentill",
+        "baseChance": 98364,
+        "chanceAtLevel99": 95889
+    },
+    {
+        "level": 15,
+        "patch": "Tree",
+        "produce": "Oak",
+        "baseChance": 22483,
+        "chanceAtLevel99": 20008
+    },
+    {
+        "level": 16,
+        "patch": "Hops",
+        "produce": "Yanillian",
+        "baseChance": 74944,
+        "chanceAtLevel99": 72469
+    },
+    {
+        "level": 19,
+        "patch": "Herb",
+        "produce": "Tarromin",
+        "baseChance": 98364,
+        "chanceAtLevel99": 95889
+    },
+    {
+        "level": 20,
+        "patch": "Allotment",
+        "produce": "Sweetcorn",
+        "baseChance": 224832,
+        "chanceAtLevel99": 222357
+    },
+    {
+        "level": 21,
+        "patch": "Hops",
+        "produce": "Krandorian",
+        "baseChance": 64238,
+        "chanceAtLevel99": 61763
+    },
+    {
+        "level": 22,
+        "patch": "Bush",
+        "produce": "Cadava berries",
+        "baseChance": 37472,
+        "chanceAtLevel99": 34997
+    },
+    {
+        "level": 23,
+        "patch": "Seaweed",
+        "produce": "Giant seaweed",
+        "baseChance": 7500,
+        "chanceAtLevel99": 5025
+    },
+    {
+        "level": 24,
+        "patch": "Flower",
+        "produce": "Nasturtiums",
+        "baseChance": 281040,
+        "chanceAtLevel99": 278565
+    },
+    {
+        "level": 25,
+        "patch": "Flower",
+        "produce": "Woad leaf",
+        "baseChance": 281040,
+        "chanceAtLevel99": 278565
+    },
+    {
+        "level": 26,
+        "patch": "Flower",
+        "produce": "Limpwurt root",
+        "baseChance": 224832,
+        "chanceAtLevel99": 222357
+    },
+    {
+        "level": 26,
+        "patch": "Herb",
+        "produce": "Harralander",
+        "baseChance": 98364,
+        "chanceAtLevel99": 95889
+    },
+    {
+        "level": 27,
+        "patch": "Fruit tree",
+        "produce": "Apple",
+        "baseChance": 9000,
+        "chanceAtLevel99": 6525
+    },
+    {
+        "level": 28,
+        "patch": "Hops",
+        "produce": "Wildblood",
+        "baseChance": 56208,
+        "chanceAtLevel99": 53733
+    },
+    {
+        "level": 29,
+        "patch": "Herb",
+        "produce": "Goutweed",
+        "baseChance": 98364,
+        "chanceAtLevel99": 95889
+    },
+    {
+        "level": 30,
+        "patch": "Tree",
+        "produce": "Willow",
+        "baseChance": 16059,
+        "chanceAtLevel99": 13584
+    },
+    {
+        "level": 31,
+        "patch": "Allotment",
+        "produce": "Strawberry",
+        "baseChance": 187360,
+        "chanceAtLevel99": 184885
+    },
+    {
+        "level": 32,
+        "patch": "Herb",
+        "produce": "Ranarr",
+        "baseChance": 98364,
+        "chanceAtLevel99": 95889
+    },
+    {
+        "level": 33,
+        "patch": "Fruit tree",
+        "produce": "Banana",
+        "baseChance": 9000,
+        "chanceAtLevel99": 6525
+    },
+    {
+        "level": 34,
+        "patch": "Tithe Farm",
+        "produce": "Tithe Farm",
+        "baseChance": 7494389,
+        "chanceAtLevel99": 7491914
+    },
+    {
+        "level": 35,
+        "patch": "Hardwood tree",
+        "produce": "Teak",
+        "baseChance": 5000,
+        "chanceAtLevel99": 2525
+    },
+    {
+        "level": 36,
+        "patch": "Bush",
+        "produce": "Dwellberries",
+        "baseChance": 32119,
+        "chanceAtLevel99": 29644
+    },
+    {
+        "level": 36,
+        "patch": "Vine",
+        "produce": "Grapes",
+        "baseChance": 385426,
+        "chanceAtLevel99": 382951
+    },
+    {
+        "level": 38,
+        "patch": "Herb",
+        "produce": "Toadflax",
+        "baseChance": 98364,
+        "chanceAtLevel99": 95889
+    },
+    {
+        "level": 39,
+        "patch": "Fruit tree",
+        "produce": "Orange",
+        "baseChance": 9000,
+        "chanceAtLevel99": 6525
+    },
+    {
+        "level": 42,
+        "patch": "Fruit tree",
+        "produce": "Curry",
+        "baseChance": 9000,
+        "chanceAtLevel99": 6525
+    },
+    {
+        "level": 44,
+        "patch": "Herb",
+        "produce": "Irit",
+        "baseChance": 98364,
+        "chanceAtLevel99": 95889
+    },
+    {
+        "level": 45,
+        "patch": "Tree",
+        "produce": "Maple",
+        "baseChance": 14052,
+        "chanceAtLevel99": 11577
+    },
+    {
+        "level": 47,
+        "patch": "Allotment",
+        "produce": "Watermelon",
+        "baseChance": 160594,
+        "chanceAtLevel99": 158119
+    },
+    {
+        "level": 48,
+        "patch": "Bush",
+        "produce": "Jangerberries",
+        "baseChance": 28104,
+        "chanceAtLevel99": 25629
+    },
+    {
+        "level": 50,
+        "patch": "Herb",
+        "produce": "Avantoe",
+        "baseChance": 98364,
+        "chanceAtLevel99": 95889
+    },
+    {
+        "level": 51,
+        "patch": "Fruit tree",
+        "produce": "Pineapple",
+        "baseChance": 9000,
+        "chanceAtLevel99": 6525
+    },
+    {
+        "level": 53,
+        "patch": "Mushroom",
+        "produce": "Mushrooms",
+        "baseChance": 7500,
+        "chanceAtLevel99": 5025
+    },
+    {
+        "level": 55,
+        "patch": "Cactus",
+        "produce": "Cactus",
+        "baseChance": 7000,
+        "chanceAtLevel99": 4525
+    },
+    {
+        "level": 55,
+        "patch": "Hardwood tree",
+        "produce": "Mahogany",
+        "baseChance": 5000,
+        "chanceAtLevel99": 2525
+    },
+    {
+        "level": 56,
+        "patch": "Herb",
+        "produce": "Kwuarm",
+        "baseChance": 98364,
+        "chanceAtLevel99": 95889
+    },
+    {
+        "level": 57,
+        "patch": "Fruit tree",
+        "produce": "Papaya",
+        "baseChance": 9000,
+        "chanceAtLevel99": 6525
+    },
+    {
+        "level": 58,
+        "patch": "Flower",
+        "produce": "White lily",
+        "baseChance": 281040,
+        "chanceAtLevel99": 278565
+    },
+    {
+        "level": 59,
+        "patch": "Bush",
+        "produce": "White berries",
+        "baseChance": 28104,
+        "chanceAtLevel99": 25629
+    },
+    {
+        "level": 60,
+        "patch": "Tree",
+        "produce": "Yew",
+        "baseChance": 11242,
+        "chanceAtLevel99": 8767
+    },
+    {
+        "level": 61,
+        "patch": "Allotment",
+        "produce": "Snape grass",
+        "baseChance": 173977,
+        "chanceAtLevel99": 171502
+    },
+    {
+        "level": 62,
+        "patch": "Herb",
+        "produce": "Snapdragon",
+        "baseChance": 98364,
+        "chanceAtLevel99": 95889
+    },
+    {
+        "level": 63,
+        "patch": "Belladonna",
+        "produce": "Cave nightshade",
+        "baseChance": 8000,
+        "chanceAtLevel99": 5525
+    },
+    {
+        "level": 64,
+        "patch": "Cactus",
+        "produce": "Potato cactus",
+        "baseChance": 160594,
+        "chanceAtLevel99": 158119
+    },
+    {
+        "level": 65,
+        "patch": "Hespori",
+        "produce": "Hespori",
+        "baseChance": 7000,
+        "chanceAtLevel99": 4525
+    },
+    {
+        "level": 67,
+        "patch": "Herb",
+        "produce": "Cadantine",
+        "baseChance": 98364,
+        "chanceAtLevel99": 95889
+    },
+    {
+        "level": 68,
+        "patch": "Fruit tree",
+        "produce": "Palm",
+        "baseChance": 9000,
+        "chanceAtLevel99": 6525
+    },
+    {
+        "level": 70,
+        "patch": "Bush",
+        "produce": "Poison ivy",
+        "baseChance": 28104,
+        "chanceAtLevel99": 25629
+    },
+    {
+        "level": 72,
+        "patch": "Calquat",
+        "produce": "Calquat tree",
+        "baseChance": 6000,
+        "chanceAtLevel99": 3525
+    },
+    {
+        "level": 73,
+        "patch": "Herb",
+        "produce": "Lantadyme",
+        "baseChance": 98364,
+        "chanceAtLevel99": 95889
+    },
+    {
+        "level": 74,
+        "patch": "Crystal tree",
+        "produce": "Crystal tree",
+        "baseChance": 9000,
+        "chanceAtLevel99": 6525
+    },
+    {
+        "level": 75,
+        "patch": "Tree",
+        "produce": "Magic",
+        "baseChance": 9368,
+        "chanceAtLevel99": 6893
+    },
+    {
+        "level": 79,
+        "patch": "Herb",
+        "produce": "Dwarf weed",
+        "baseChance": 98364,
+        "chanceAtLevel99": 95889
+    },
+    {
+        "level": 81,
+        "patch": "Fruit tree",
+        "produce": "Dragonfruit",
+        "baseChance": 9000,
+        "chanceAtLevel99": 6525
+    },
+    {
+        "level": 83,
+        "patch": "Spirit tree",
+        "produce": "Spirit tree",
+        "baseChance": 5000,
+        "chanceAtLevel99": 2525
+    },
+    {
+        "level": 85,
+        "patch": "Celastrus tree",
+        "produce": "Celastrus tree",
+        "baseChance": 9000,
+        "chanceAtLevel99": 6525
+    },
+    {
+        "level": 85,
+        "patch": "Herb",
+        "produce": "Torstol",
+        "baseChance": 98364,
+        "chanceAtLevel99": 95889
+    },
+    {
+        "level": 90,
+        "patch": "Redwood tree",
+        "produce": "Redwood tree",
+        "baseChance": 5000,
+        "chanceAtLevel99": 2525
+    }
+]

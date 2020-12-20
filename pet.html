@@ -1,0 +1,39 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>OSRS Farming Pet Calculator</title>
+  <meta name="description" content="Old School Runescape Farming Pet Calculator">
+  <meta name="author" content="Bayrock">
+
+  <link rel="stylesheet" href="css/style.css?v=1.0">
+</head>
+
+<body class="bg-primary">
+  <center>
+    <h2>OSRS Farming Pet Calculator</h2>
+
+    <form onsubmit="calculatePetChance()">
+      <label for="cars"><b>Patch:</b></label>
+
+      <select name="patches" id="patches">
+        <option value="seaweed">Seaweed</option>
+        <option value="hespori">Hespori</option>
+      </select>
+
+      <br><br>
+
+      <label for="lvl"><b>Level:</b></label>
+      <input type="text" id="lvl" name="lvl"><br><br>
+      <input type="submit" value="Calculate">
+    </form>
+
+  </center>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+  <script src="js/scripts.js"></script>
+</body>
+</html>
