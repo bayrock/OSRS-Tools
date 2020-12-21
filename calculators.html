@@ -8,14 +8,14 @@
   <meta name="description" content="Old School Runescape Farming Pet Calculator">
   <meta name="author" content="Bayrock">
 
-  <link rel="stylesheet" href="css/style.css?v=1.1">
+  <link rel="stylesheet" href="css/style.css?v=1.11">
 </head>
 
 <body class="bg-primary">
   <center>
     <h2>OSRS Farming Pet Calculator</h2>
 
-    <form onsubmit="calculatePetChance()">
+    <form id="farmingForm">
       <label for="cars"><b>Patch:</b></label>
 
       <select name="patches" id="patchSelector">
@@ -25,14 +25,19 @@
       <br><br>
 
       <label for="lvl"><b>Level:</b></label>
-      <input type="text" id="lvl" name="lvl"><br><br>
-      <input type="submit" value="Calculate">
+      <input type="text" id="lvl" name="lvl" size="1" maxlength="2">
+      <input class="bg-secondary" type="submit" value="Calculate">
+
+      <br>
     </form>
+
+    <p class="alert" id="alertBox"></p>
+    <p class="error" id="errorBox"></p>
 
   </center>
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
-  <script src="js/scripts.js"></script>
+  <script src="js/scripts.js?v=1.21"></script>
 </body>
 </html>

@@ -1,7 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap');
 
-.bg-primary {background-color:#36454f;}
-
 body {
     font-family: 'MedievalSharp', cursive;
 }
+
+.bg-primary {background-color: #36454f;}
+.bg-secondary {background-color: darkgray}
+
+.alert {color: darkseagreen;}
+.error {color: firebrick}
