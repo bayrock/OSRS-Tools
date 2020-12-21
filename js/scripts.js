@@ -24,9 +24,7 @@ function setError(str) {resetAlert(); $("#errorBox").html(str)}
 function resetAlert() {$("#alertBox").html('')}
 function resetError() {$("#errorBox").html('')}
 
-function getChance(baseChance, level) { 
-    return baseChance - (level * 25)
-}
+function getChance(baseChance, level) {return baseChance - (level * 25)}
 
 function addPatchSelections(patches) {
     const selector = document.getElementById("patchSelector")
@@ -51,7 +49,7 @@ $.getJSON("patches.json", (data) => {
     addPatchSelections(data)
 })
 
-$(document).ready( function() { // Document is fully parsed
+$(document).ready(() => { // Document is fully parsed
     $("#farmingForm").submit(e => {
         calculatePetChance()
         e.preventDefault()
