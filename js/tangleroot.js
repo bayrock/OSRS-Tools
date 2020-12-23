@@ -19,11 +19,6 @@ function calculatePetChance() {
         setAlert(`Your Tangleroot chance is 1 out of ${getChance(base, level)} attempts..`)
 }
 
-function setAlert(str) {resetError(); $("#alertBox").html(str)}
-function setError(str) {resetAlert(); $("#errorBox").html(str)}
-function resetAlert() {$("#alertBox").html('')}
-function resetError() {$("#errorBox").html('')}
-
 function getChance(baseChance, level) {return baseChance - (level * 25)}
 
 function addPatchSelections(patches) {
@@ -49,7 +44,7 @@ $.getJSON("patches.json", (data) => {
     addPatchSelections(data)
 })
 
-$(document).ready(() => { // Document is fully parsed
+$(document).ready(() => {
     $("#farmingForm").submit(e => {
         calculatePetChance()
         e.preventDefault()
