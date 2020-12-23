@@ -2,7 +2,7 @@
 let patchData
 function calculatePetChance() {
     const selector = document.getElementById("patchSelector")
-    const lvl = document.getElementById("lvl").value ?? 0
+    const level = document.getElementById("lvl").value ?? 0
     
     let base
     if  (selector.selectedIndex == 0)
@@ -11,12 +11,12 @@ function calculatePetChance() {
         base = patchData[selector.value].baseChance ?? 0
 
     //console.log(`The base chance of ${selector.value} is ${base}!`)
-    //console.log(`The level input is ${lvl}!`)
+    //console.log(`The level input is ${level}!`)
 
     if (base == 0)
         setError('Input not valid, check it and try again.. derp!')
     else
-        setAlert(`Your chance is 1 out of ${getChance(base, lvl)} attempts..`)
+        setAlert(`Your Tangleroot chance is 1 out of ${getChance(base, level)} attempts..`)
 }
 
 function setAlert(str) {resetError(); $("#alertBox").html(str)}

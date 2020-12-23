@@ -4,7 +4,9 @@ body {
     font-family: 'MedievalSharp', cursive;
 }
 
-.bg-primary {background-color: #36454f;}
+:root {--charcoal: #36454f;}
+
+.bg-primary {background-color: var(--charcoal);}
 .bg-secondary {background-color: darkgray;}
 
 .alert {color: darkseagreen;}
