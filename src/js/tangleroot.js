@@ -34,7 +34,7 @@ function addPatchSelections(patches) {
     });
 }
 
-$.getJSON("patches.json", (data) => {
+$.getJSON("data/patches.json", (data) => {
     if (patchData == null || patchData == undefined)
         patchData = {}
 
