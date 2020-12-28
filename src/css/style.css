@@ -12,8 +12,8 @@ a:visited {color: lightgrey;}
 .bg-primary {background-color: var(--charcoal);}
 .bg-secondary {background-color: darkgray;}
 
-.honeydew {color: honeydew}
-.lightgrey { color:lightgrey}
+.honeydew {color: honeydew;}
+.lightgrey {color: lightgrey;}
 
 .alert {color: darkseagreen;}
 .error {color: firebrick;}
@@ -27,3 +27,6 @@ a:visited {color: lightgrey;}
     max-height: 32px;
     width: auto;
 }
+
+/*Responsive styling*/
+/*@media all and (min-width: 0px) and (max-width: 768px) {}*/

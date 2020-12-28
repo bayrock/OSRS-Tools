@@ -16,7 +16,7 @@ function calculatePetChance() {
     if (base == 0)
         setError('Input not valid, check it and try again.. derp!')
     else
-        setAlert(`Your Tangleroot chance is 1 out of ${getChance(base, level)} attempts..`)
+        setAlert(`Tangleroot chance is 1 out of ${getChance(base, level)} per patch..`)
 }
 
 function getChance(baseChance, level) {return baseChance - (level * 25)}
