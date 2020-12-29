@@ -1,6 +1,6 @@
-function setAlert(str) {resetError(); $("#alertBox").html(str)}
-function setError(str) {resetAlert(); $("#errorBox").html(str)}
-function resetAlert() {$("#alertBox").html("")}
-function resetError() {$("#errorBox").html("")}
+function setAlert(str) {resetError(); document.getElementById("alertBox").innerHTML = str}
+function setError(str) {resetAlert(); document.getElementById("errorBox").innerHTML = str}
+function resetAlert() {document.getElementById("alertBox").innerHTML = ""}
+function resetError() {document.getElementById("errorBox").innerHTML = ""}
 
 function getPlural(str, int) {return int + " " + (int > 1 ? str + "s" : str)}

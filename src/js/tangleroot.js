@@ -31,21 +31,29 @@ function addPatchSelections(patches) {
         option.value = entry.produce.toLowerCase()
 
         selector.add(option)
-    });
+    })
 }
 
-$.getJSON("data/patches.json", (data) => {
-    if (patchData == null || patchData == undefined)
-        patchData = {}
-
-    data.forEach(entry => {
-        patchData[entry.produce.toLowerCase()] = entry
+document.addEventListener("DOMContentLoaded", () => {
+    fetch("data/patches.json").then(res => {
+        if (!res.ok)
+            throw new Error("HTTP error " + res.status)
+        return res.json()
+    }).then(data => {
+        if (patchData == null || patchData == undefined)
+            patchData = {}
+    
+        data.forEach(entry => {
+            patchData[entry.produce.toLowerCase()] = entry
+        })
+        addPatchSelections(data)
+    }).catch((e) => {
+        console.warn(e)
+        setError("Error loading JSON data!")
     })
-    addPatchSelections(data)
-})
 
-$(document).ready(() => {
-    $("#farmingForm").submit(e => {
+    const farmform = document.getElementById("farmingForm")
+    farmform.addEventListener("submit", e => {
         calculatePetChance()
         e.preventDefault()
     })
