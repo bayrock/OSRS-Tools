@@ -22,6 +22,6 @@ function getDelta() {
             getPlural("second", seconds)].join(" ")
 }
 
-$(document).ready(() => {
-    $("#clock").html(`<b>${getDelta()}</b><br><span class="lightgrey"><i>until reset (Wednesday 00:00 UTC)</i></span>`)
+document.addEventListener("DOMContentLoaded", () => {
+    document.getElementById("clock").innerHTML = `<b>${getDelta()}</b><br><span class="lightgrey"><i>until reset (Wednesday 00:00 UTC)</i></span>`
 })
